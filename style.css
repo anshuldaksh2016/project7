@@ -1,0 +1,44 @@
+ 
+        * {
+            margin: 0;
+        }
+
+        body{
+            background-color: #100e17;
+        }
+
+        /* navigation */
+
+        #navigation {
+            background-color: transparent;
+            color: white;
+            padding: 1rem;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+
+        }
+        #navigation .link{
+            color: white;
+        }
+
+        #navigation #navbar-brand {
+            font-weight: 600;
+            font-size: x-large;
+        }
+
+        .nav-pills {
+            text-align: right;
+            
+        }
+        .list-non-bullet{
+            list-style: none;
+        }
+
+        .list-inline {
+            display: inline;
+            font-size: 1.3rem;
+            padding: 10px;
+
+        }
+
+       

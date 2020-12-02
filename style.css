@@ -12,17 +12,18 @@ body {
   background-color: transparent;
   color: white;
   padding: 1rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  text-align: center;
+  /*border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;*/
 }
-#navigation .link {
+/*#navigation .link {
   color: white;
-}
+}*/
 
 #navigation #navbar-brand {
   font-weight: 600;
   font-size: 3rem;
-  animation: pulse 5s infinite;
+  animation: pulse 2s infinite;
 }
 /* animation */
 @keyframes pulse {
@@ -34,7 +35,7 @@ body {
   }
 }
 
-.nav-pills {
+/*.nav-pills {
   text-align: right;
 }
 
@@ -42,4 +43,38 @@ body {
   display: inline;
   font-size: 1.3rem;
   padding: 1rem;
+}*/
+
+/* main section */
+
+.main {
+  display: block;
+  margin: auto;
+  color: wheat;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.button {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+textarea {
+  box-sizing: border-box;
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+  margin: 20px;
+  min-height: 20vh;
+}
+
+.main .output {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid white;
+  margin: 1rem;
+  min-height: 10vh;
+  max-height: 20vh;
 }

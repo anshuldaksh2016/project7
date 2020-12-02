@@ -78,3 +78,12 @@ textarea {
   min-height: 10vh;
   max-height: 20vh;
 }
+
+#footer {
+  text-align: center;
+  bottom: 0;
+  margin-top: 1rem;
+  padding: 2rem;
+  color: white;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+}

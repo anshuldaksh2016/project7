@@ -31,7 +31,7 @@ body {
     color: #dee3e7;
   }
   100% {
-    color: #ff4136;
+    color: white;
   }
 }
 
@@ -68,6 +68,8 @@ textarea {
   width: 100%;
   margin: 20px;
   min-height: 20vh;
+  background-color: #1f2937;
+  color: white;
 }
 
 .main .output {
